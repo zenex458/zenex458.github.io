@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nmap on CUEH ComSec</title><link>https://cov-comsec.github.io/tags/nmap/</link><description>Recent content in Nmap on CUEH ComSec</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 04 Nov 2021 10:34:36 +0000</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/nmap/index.xml" rel="self" type="application/rss+xml"/><item><title>Scanning and Enumeration</title><link>https://cov-comsec.github.io/posts/2021_scanning/</link><pubDate>Wed, 29 Sep 2021 22:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/2021_scanning/</guid><description>&lt;p&gt;In this session we will begin to look at scanning and enummeration, and start to look at some of the associated tools.&lt;/p&gt;
+&lt;h2 id="warm-up---getting-help-in-the-terminal"&gt;Warm Up - Getting help in the Terminal&lt;/h2&gt;
+&lt;p&gt;Ever forgotten a command or switch in linux - here&amp;rsquo;s two great ways to find help; all from the comfort of your terminal!&lt;/p&gt;
+&lt;h3 id="help"&gt;&amp;ndash;help&lt;/h3&gt;
+&lt;p&gt;Virtually all commands in linux have built-in help, all you need to do is append &lt;code&gt;--help&lt;/code&gt; to the end of your command. So for help with nmap, you would use&lt;/p&gt;</description></item><item><title>Web Enumeration Writeup</title><link>https://cov-comsec.github.io/posts/web_enum_writeup/</link><pubDate>Wed, 28 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/web_enum_writeup/</guid><description>&lt;p&gt;Web Enumeration ctf
+Start your docker instances and let&amp;rsquo;s hack!
+8 flags inside this machine&lt;/p&gt;
+&lt;p&gt;Every time first thing to do Nmap scan
+&lt;img
+ class="lazyload"
+ src="https://cov-comsec.github.io/svg/loading.min.svg"
+ data-src="img/scan.png"
+ data-srcset="https://cov-comsec.github.io/posts/web_enum_writeup/img/scan.png, img/scan.png 1.5x, https://cov-comsec.github.io/posts/web_enum_writeup/img/scan.png 2x"
+ data-sizes="auto"
+ alt="/posts/web_enum_writeup/img/scan.png"
+ title="scan" /&gt;&lt;/p&gt;
+&lt;p&gt;Look at your scan results. So we have one port open 3838/tcp and we have at least one directory &amp;lsquo;/legal&amp;rsquo; and one file robots.txt and the box is running nginx.
+First thing lets open the browser and navigate to 172.17.0.2
+&lt;img
+ class="lazyload"
+ src="https://cov-comsec.github.io/svg/loading.min.svg"
+ data-src="img/index.png"
+ data-srcset="https://cov-comsec.github.io/posts/web_enum_writeup/img/index.png, img/index.png 1.5x, https://cov-comsec.github.io/posts/web_enum_writeup/img/index.png 2x"
+ data-sizes="auto"
+ alt="/posts/web_enum_writeup/img/index.png"
+ title="Homepage" /&gt;
+Get a good look at the source code and the style.css and should be able to find the flag1.
+Well this week is all about list and enumerating web apps so let&amp;rsquo;s do it. You have a lot of tools from gobuster, ffuf, dirbuster and etc.
+I&amp;rsquo;ll be using dirbuster. Dirbuster is better for recursion.&lt;/p&gt;</description></item><item><title>Web Enumeration</title><link>https://cov-comsec.github.io/posts/web_enum/</link><pubDate>Thu, 22 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/web_enum/</guid><description>&lt;p&gt;In this session, we will look at website enumeration and exploitation. This is what we will cover in further detail:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is Enumeration?&lt;/li&gt;
+&lt;li&gt;Directory Brute Forcing&lt;/li&gt;
+&lt;li&gt;Checking Comments &amp;amp; Common Files&lt;/li&gt;
+&lt;li&gt;Directory Traversal&lt;/li&gt;
+&lt;li&gt;Google Dorking (basics)&lt;/li&gt;
+&lt;li&gt;Server Fingerprinting &amp;amp; Other Tools&lt;/li&gt;
+&lt;li&gt;Web Shells&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resources"&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/web_enum/webEnumeration.pdf" rel=""&gt;Presentation Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.twitch.tv/videos/779063041" target="_blank" rel="noopener noreffer"&gt;Live Session Recording&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-is-enumeration"&gt;What is Enumeration?&lt;/h2&gt;
+&lt;p&gt;Enumeration is the process of going through a list, one by one, to find information. This is used in hacking to find information to leverage an attack.&lt;/p&gt;</description></item><item><title>ComSec Introduction Writeup</title><link>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</link><pubDate>Wed, 21 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</guid><description>&lt;h2 id="nmap-1"&gt;Nmap 1&lt;/h2&gt;
+&lt;p&gt;Welcome to ComSec&amp;rsquo;s first challenge! This week we will be targeting a docker container, to start it, issue the following two commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ wget https://cov-comsec.github.io/posts/welcome_nmap/c1/docker-compose.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ sudo docker-compose up
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;[&lt;/span&gt;sudo&lt;span class="o"&gt;]&lt;/span&gt; password &lt;span class="k"&gt;for&lt;/span&gt; kali: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;WARNING: Found orphan containers &lt;span class="o"&gt;(&lt;/span&gt;kali_evilweb_1&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; this project. If you removed or renamed this service in your compose file, you can run this &lt;span class="nb"&gt;command&lt;/span&gt; with the --remove-orphans flag to clean it up.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Recreating kali_ftp_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Recreating kali_smtp_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Starting kali_ssh_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Creating kali_web_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Attaching to kali_web_1, kali_ssh_1, kali_smtp_1, kali_ftp_1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ftp_1 &lt;span class="p"&gt;|&lt;/span&gt; Starting Pure-FTPd:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ftp_1 &lt;span class="p"&gt;|&lt;/span&gt; pure-ftpd -c &lt;span class="m"&gt;30&lt;/span&gt; -C &lt;span class="m"&gt;10&lt;/span&gt; -l puredb:/etc/pure-ftpd/pureftpd.pdb -j -R -P localhost -p 30000:30059 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; AH00558: apache2: Could not reliably determine the server&lt;span class="s1"&gt;&amp;#39;s fully qualified domain name, using 192.168.42.4. Set the &amp;#39;&lt;/span&gt;ServerName&lt;span class="s1"&gt;&amp;#39; directive globally to suppress this message
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s1"&gt;web_1 | AH00558: apache2: Could not reliably determine the server&amp;#39;&lt;/span&gt;s fully qualified domain name, using 192.168.42.4. Set the &lt;span class="s1"&gt;&amp;#39;ServerName&amp;#39;&lt;/span&gt; directive globally to suppress this message
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;Fri Oct &lt;span class="m"&gt;22&lt;/span&gt; 23:08:37.325178 2021&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;mpm_prefork:notice&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;pid 1&lt;span class="o"&gt;]&lt;/span&gt; AH00163: Apache/2.4.25 &lt;span class="o"&gt;(&lt;/span&gt;Debian&lt;span class="o"&gt;)&lt;/span&gt; PHP/7.3.4 configured -- resuming normal operations
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;Fri Oct &lt;span class="m"&gt;22&lt;/span&gt; 23:08:37.326184 2021&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;core:notice&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;pid 1&lt;span class="o"&gt;]&lt;/span&gt; AH00094: Command line: &lt;span class="s1"&gt;&amp;#39;apache2 -D FOREGROUND&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;NB:&lt;/strong&gt; Despite the output, the target machine will be launched at 192.168.42.1!&lt;/p&gt;</description></item><item><title>ComSec Introduction</title><link>https://cov-comsec.github.io/posts/welcome_nmap/</link><pubDate>Thu, 15 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/welcome_nmap/</guid><description>&lt;p&gt;This week is the first session of the academic year, and we will cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is ComSec?&lt;/li&gt;
+&lt;li&gt;Network Scanning with Nmap&lt;/li&gt;
+&lt;li&gt;Introduction to TryHackMe&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resources"&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/welcome_nmap/nmap.pdf" rel=""&gt;Presentation Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.twitch.tv/videos/772154140" target="_blank" rel="noopener noreffer"&gt;Live Session Recording&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Docker-Compose Challenges
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/welcome_nmap/c1/docker-compose.yaml" rel=""&gt;Challenge 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/welcome_nmap/c2/docker-compose.yaml" rel=""&gt;Challenge 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-is-comsec"&gt;What is ComSec?&lt;/h2&gt;
+&lt;p&gt;Firstly, welcome to ComSec, we are the university&amp;rsquo;s unofficial ethical hacking society. This year the club will be led by second year students Jack Orcherton, Martin Schon and Tiago Pascoal.&lt;/p&gt;</description></item></channel></rss>

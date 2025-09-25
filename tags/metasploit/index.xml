@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Metasploit on CUEH ComSec</title><link>https://cov-comsec.github.io/tags/metasploit/</link><description>Recent content in Metasploit on CUEH ComSec</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 29 Sep 2021 09:00:33 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/metasploit/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: OSINT Chalange Writeup</title><link>https://cov-comsec.github.io/posts/week1_writeup/</link><pubDate>Tue, 28 Sep 2021 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/week1_writeup/</guid><description>&lt;h2 id="intro"&gt;Intro&lt;/h2&gt;
+&lt;p&gt;The first-week challenge covers the basics of OSINT research, opening remote connections and password cracking. I will try to cover most of the methods we can use to get through Jack&amp;rsquo;s cat and Ben&amp;rsquo;s secure passwords. Without further ado, let&amp;rsquo;s begin.&lt;/p&gt;
+&lt;h2 id="challenge-1-web-username"&gt;Challenge 1: Web Username&lt;/h2&gt;
+&lt;p&gt;The first one was very tricky for me as I am not a cat person and don&amp;rsquo;t enjoy cat pictures&amp;hellip;
+Anyway, as we go to the landing page, we can see that there are home(1) and login(2) pages and some information(3) about some employees.&lt;/p&gt;</description></item><item><title>Metasploit</title><link>https://cov-comsec.github.io/posts/metasploit/</link><pubDate>Wed, 27 Jan 2021 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/metasploit/</guid><description>&lt;p&gt;Today, we will look at Metasploit; a widely used pen testing framework. Metasploit is a massive product and today we will focus on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is Metasploit?&lt;/li&gt;
+&lt;li&gt;What is msfconsole?&lt;/li&gt;
+&lt;li&gt;What is Metasploitable2?&lt;/li&gt;
+&lt;li&gt;Using Nmap in msfconsole&lt;/li&gt;
+&lt;li&gt;Running an exploit using Metasploit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resources"&gt;Resources&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/metasploit/metasploit.pdf" rel=""&gt;Presentation Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="details admonition tip open"&gt;
+ &lt;div class="details-summary admonition-title"&gt;
+ &lt;i class="icon fas fa-lightbulb fa-fw"&gt;&lt;/i&gt;Tip&lt;i class="details-icon fas fa-angle-right fa-fw"&gt;&lt;/i&gt;
+ &lt;/div&gt;
+ &lt;div class="details-content"&gt;
+ &lt;div class="admonition-content"&gt;In the examples, I run exploits against Metasploitable 2 (a deliberately vulnerable VM). You can download it &lt;a href="https://sourceforge.net/projects/metasploitable/files/Metasploitable2/" target="_blank" rel="noopener noreffer"&gt;here&lt;/a&gt;.&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+&lt;h2 id="what-is-metasploit"&gt;What is Metasploit?&lt;/h2&gt;
+&lt;p&gt;Metasploit is the world’s most used penetration testing framework made by
+Rapid7. It is installed by default on Kali Linux and has many different features/modes aimed at different areas (like
+msfvenom) but today we will be focusing on msfconsole.&lt;/p&gt;</description></item></channel></rss>

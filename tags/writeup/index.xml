@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Writeup on CUEH ComSec</title><link>https://cov-comsec.github.io/tags/writeup/</link><description>Recent content in Writeup on CUEH ComSec</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 31 Aug 2023 20:30:04 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/writeup/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting setup for ComSec</title><link>https://cov-comsec.github.io/posts/getting-setup/</link><pubDate>Wed, 30 Aug 2023 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/getting-setup/</guid><description>&lt;p&gt;Most ComSec sessions are practical, so you&amp;rsquo;ll need a system you&amp;rsquo;re happy to hack on. We will run workshops in the labs as much as possible, so those machines will be available. If you&amp;rsquo;re a more experience hacker, you no doubt have your own environment, however, if you&amp;rsquo;re still getting into the area you may want a low-effort environment to start with. ComSec has built some tools to help with this.&lt;/p&gt;</description></item><item><title>Writeup: Hack The Box Cyber Apocalypse 2023 - The Cursed Mission</title><link>https://cov-comsec.github.io/posts/2023_hackthebox_cyberapoc/</link><pubDate>Thu, 23 Mar 2023 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/2023_hackthebox_cyberapoc/</guid><description>&lt;p&gt;The HackTheBox Cyber Apocalypse has become a staple annual event of the ComSec CTF calendar, though this year a couple
+of changed were introduced - such as the maximum team size and average difficulty of the challenges. This post
+contains some challenges&lt;/p&gt;
+&lt;div class="toc" id="toc-auto"&gt;
+ &lt;h2 class="toc-title"&gt;Contents&lt;/h2&gt;
+
+ &lt;div class="toc-content false" id="toc-content-auto"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="details toc" id="toc-static" kept="true"&gt;
+ &lt;div class="details-summary toc-title"&gt;
+ &lt;span&gt;Contents&lt;/span&gt;
+ &lt;span&gt;&lt;i class="details-icon fas fa-angle-right"&gt;&lt;/i&gt;&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="details-content toc-content" id="toc-content-static"&gt;&lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#rev-alien-saboteur"&gt;rev: Alien Saboteur&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#understanding-the-vm"&gt;Understanding the VM&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#reversing-the-vm-program"&gt;Reversing the VM Program&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#getting-the-first-password"&gt;Getting the First Password&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#unravelling-more-code"&gt;Unravelling more Code&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#finding-the-flag"&gt;Finding the Flag&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#pwn-control-room"&gt;pwn: Control Room&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#static-analysis"&gt;Static Analysis&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#configure-engine"&gt;Configure Engine&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#exploitation"&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="rev-alien-saboteur"&gt;rev: Alien Saboteur&lt;/h2&gt;
+&lt;p&gt;&lt;img
+ class="lazyload"
+ src="https://cov-comsec.github.io/svg/loading.min.svg"
+ data-src="./images/alien/ss0.png"
+ data-srcset="./images/alien/ss0.png, ./images/alien/ss0.png 1.5x, ./images/alien/ss0.png 2x"
+ data-sizes="auto"
+ alt="./images/alien/ss0.png"
+ title="Challenge Card" /&gt;&lt;/p&gt;</description></item><item><title>DownUnder CTF 2022</title><link>https://cov-comsec.github.io/posts/down-under-ctf-2022/</link><pubDate>Wed, 10 Aug 2022 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/down-under-ctf-2022/</guid><description>&lt;p&gt;DownUnder CTF was a 48 hour CTF that began on Friday 23rd September 2022. It was the first CTF of the year that ComSec
+played, we had quite a few new members playing this one so it was a great chance for them to practice their skills.&lt;/p&gt;
+&lt;p&gt;This article contains writeups of a range of difficulty and category, so this should be a good place for new members
+to see what a jeopardy style CTF looks like.&lt;/p&gt;</description></item><item><title>Web Enumeration Writeup</title><link>https://cov-comsec.github.io/posts/web_enum_writeup/</link><pubDate>Wed, 28 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/web_enum_writeup/</guid><description>&lt;p&gt;Web Enumeration ctf
+Start your docker instances and let&amp;rsquo;s hack!
+8 flags inside this machine&lt;/p&gt;
+&lt;p&gt;Every time first thing to do Nmap scan
+&lt;img
+ class="lazyload"
+ src="https://cov-comsec.github.io/svg/loading.min.svg"
+ data-src="img/scan.png"
+ data-srcset="https://cov-comsec.github.io/posts/web_enum_writeup/img/scan.png, img/scan.png 1.5x, https://cov-comsec.github.io/posts/web_enum_writeup/img/scan.png 2x"
+ data-sizes="auto"
+ alt="/posts/web_enum_writeup/img/scan.png"
+ title="scan" /&gt;&lt;/p&gt;
+&lt;p&gt;Look at your scan results. So we have one port open 3838/tcp and we have at least one directory &amp;lsquo;/legal&amp;rsquo; and one file robots.txt and the box is running nginx.
+First thing lets open the browser and navigate to 172.17.0.2
+&lt;img
+ class="lazyload"
+ src="https://cov-comsec.github.io/svg/loading.min.svg"
+ data-src="img/index.png"
+ data-srcset="https://cov-comsec.github.io/posts/web_enum_writeup/img/index.png, img/index.png 1.5x, https://cov-comsec.github.io/posts/web_enum_writeup/img/index.png 2x"
+ data-sizes="auto"
+ alt="/posts/web_enum_writeup/img/index.png"
+ title="Homepage" /&gt;
+Get a good look at the source code and the style.css and should be able to find the flag1.
+Well this week is all about list and enumerating web apps so let&amp;rsquo;s do it. You have a lot of tools from gobuster, ffuf, dirbuster and etc.
+I&amp;rsquo;ll be using dirbuster. Dirbuster is better for recursion.&lt;/p&gt;</description></item><item><title>ComSec Introduction Writeup</title><link>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</link><pubDate>Wed, 21 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</guid><description>&lt;h2 id="nmap-1"&gt;Nmap 1&lt;/h2&gt;
+&lt;p&gt;Welcome to ComSec&amp;rsquo;s first challenge! This week we will be targeting a docker container, to start it, issue the following two commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ wget https://cov-comsec.github.io/posts/welcome_nmap/c1/docker-compose.yaml
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ sudo docker-compose up
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;[&lt;/span&gt;sudo&lt;span class="o"&gt;]&lt;/span&gt; password &lt;span class="k"&gt;for&lt;/span&gt; kali: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;WARNING: Found orphan containers &lt;span class="o"&gt;(&lt;/span&gt;kali_evilweb_1&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; this project. If you removed or renamed this service in your compose file, you can run this &lt;span class="nb"&gt;command&lt;/span&gt; with the --remove-orphans flag to clean it up.
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Recreating kali_ftp_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Recreating kali_smtp_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Starting kali_ssh_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Creating kali_web_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Attaching to kali_web_1, kali_ssh_1, kali_smtp_1, kali_ftp_1
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ftp_1 &lt;span class="p"&gt;|&lt;/span&gt; Starting Pure-FTPd:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ftp_1 &lt;span class="p"&gt;|&lt;/span&gt; pure-ftpd -c &lt;span class="m"&gt;30&lt;/span&gt; -C &lt;span class="m"&gt;10&lt;/span&gt; -l puredb:/etc/pure-ftpd/pureftpd.pdb -j -R -P localhost -p 30000:30059 
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; AH00558: apache2: Could not reliably determine the server&lt;span class="s1"&gt;&amp;#39;s fully qualified domain name, using 192.168.42.4. Set the &amp;#39;&lt;/span&gt;ServerName&lt;span class="s1"&gt;&amp;#39; directive globally to suppress this message
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s1"&gt;web_1 | AH00558: apache2: Could not reliably determine the server&amp;#39;&lt;/span&gt;s fully qualified domain name, using 192.168.42.4. Set the &lt;span class="s1"&gt;&amp;#39;ServerName&amp;#39;&lt;/span&gt; directive globally to suppress this message
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;Fri Oct &lt;span class="m"&gt;22&lt;/span&gt; 23:08:37.325178 2021&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;mpm_prefork:notice&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;pid 1&lt;span class="o"&gt;]&lt;/span&gt; AH00163: Apache/2.4.25 &lt;span class="o"&gt;(&lt;/span&gt;Debian&lt;span class="o"&gt;)&lt;/span&gt; PHP/7.3.4 configured -- resuming normal operations
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;Fri Oct &lt;span class="m"&gt;22&lt;/span&gt; 23:08:37.326184 2021&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;core:notice&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;pid 1&lt;span class="o"&gt;]&lt;/span&gt; AH00094: Command line: &lt;span class="s1"&gt;&amp;#39;apache2 -D FOREGROUND&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;NB:&lt;/strong&gt; Despite the output, the target machine will be launched at 192.168.42.1!&lt;/p&gt;</description></item></channel></rss>

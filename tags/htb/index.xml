@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTB on CUEH ComSec</title><link>https://cov-comsec.github.io/tags/htb/</link><description>Recent content in HTB on CUEH ComSec</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 31 Mar 2023 23:21:20 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/htb/index.xml" rel="self" type="application/rss+xml"/><item><title>Writeup: Hack The Box Cyber Apocalypse 2023 - The Cursed Mission</title><link>https://cov-comsec.github.io/posts/2023_hackthebox_cyberapoc/</link><pubDate>Thu, 23 Mar 2023 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/2023_hackthebox_cyberapoc/</guid><description>&lt;p&gt;The HackTheBox Cyber Apocalypse has become a staple annual event of the ComSec CTF calendar, though this year a couple
+of changed were introduced - such as the maximum team size and average difficulty of the challenges. This post
+contains some challenges&lt;/p&gt;
+&lt;div class="toc" id="toc-auto"&gt;
+ &lt;h2 class="toc-title"&gt;Contents&lt;/h2&gt;
+
+ &lt;div class="toc-content false" id="toc-content-auto"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="details toc" id="toc-static" kept="true"&gt;
+ &lt;div class="details-summary toc-title"&gt;
+ &lt;span&gt;Contents&lt;/span&gt;
+ &lt;span&gt;&lt;i class="details-icon fas fa-angle-right"&gt;&lt;/i&gt;&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="details-content toc-content" id="toc-content-static"&gt;&lt;nav id="TableOfContents"&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#rev-alien-saboteur"&gt;rev: Alien Saboteur&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#understanding-the-vm"&gt;Understanding the VM&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#reversing-the-vm-program"&gt;Reversing the VM Program&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#getting-the-first-password"&gt;Getting the First Password&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#unravelling-more-code"&gt;Unravelling more Code&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#finding-the-flag"&gt;Finding the Flag&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#pwn-control-room"&gt;pwn: Control Room&lt;/a&gt;
+ &lt;ul&gt;
+ &lt;li&gt;&lt;a href="#static-analysis"&gt;Static Analysis&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/li&gt;
+ &lt;li&gt;&lt;a href="#configure-engine"&gt;Configure Engine&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a href="#exploitation"&gt;Exploitation&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+&lt;/nav&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id="rev-alien-saboteur"&gt;rev: Alien Saboteur&lt;/h2&gt;
+&lt;p&gt;&lt;img
+ class="lazyload"
+ src="https://cov-comsec.github.io/svg/loading.min.svg"
+ data-src="./images/alien/ss0.png"
+ data-srcset="./images/alien/ss0.png, ./images/alien/ss0.png 1.5x, ./images/alien/ss0.png 2x"
+ data-sizes="auto"
+ alt="./images/alien/ss0.png"
+ title="Challenge Card" /&gt;&lt;/p&gt;</description></item><item><title>Graduate Talks - Ziemni</title><link>https://cov-comsec.github.io/posts/ziemni/</link><pubDate>Wed, 28 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/ziemni/</guid><description>&lt;p&gt;This week we had a presentation by a graduate student, Ziemni. He is currently studying for a Masters in Cybersecurity Management &amp;amp; is frequently in the HackTheBox top 10. He details how he has improved himself throughout his time at Coventry University &amp;amp; the importance of practising hacking.&lt;/p&gt;
+&lt;p&gt;The main talking points were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ziemni&amp;rsquo;s background&lt;/li&gt;
+&lt;li&gt;Where to start/background&lt;/li&gt;
+&lt;li&gt;Importance of CTFs &amp;amp; Practice&lt;/li&gt;
+&lt;li&gt;Different CTF programs&lt;/li&gt;
+&lt;li&gt;Live HTB demo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="resources"&gt;Resources&lt;/h3&gt;
+&lt;p&gt;Here are the &lt;a href="https://cov-comsec.github.io/posts/ziemni/ziemni.pdf" rel=""&gt;Presentation Slides&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>
