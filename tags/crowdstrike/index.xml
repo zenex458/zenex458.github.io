@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>CrowdStrike on CUEH ComSec</title><link>https://cov-comsec.github.io/tags/crowdstrike/</link><description>Recent content in CrowdStrike on CUEH ComSec</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 22 Jun 2021 12:09:00 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/crowdstrike/index.xml" rel="self" type="application/rss+xml"/><item><title>CrowdStrike Event</title><link>https://cov-comsec.github.io/posts/crowdstrike_event/</link><pubDate>Fri, 04 Dec 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/crowdstrike_event/</guid><description>&lt;p&gt;Our university has been hacked!!!!
-CrowdStrike and ComSec request your help in identifying the malicious attackers. Can you help us identify the attackers before Warwick, Southampton and Edinburgh Napier do?&lt;/p&gt;
-&lt;p&gt;This week we will complete a blue team, security operation centre type challenge!&lt;/p&gt;
-&lt;p&gt;Unfortunately, places are limited this week, and require booking in advance - to book, view our post on either Aula or Discord&lt;/p&gt;
-&lt;h2 id="who-are-crowdstrike"&gt;Who are CrowdStrike?&lt;/h2&gt;
-&lt;p&gt;&amp;lsquo;CrowdStrike was founded in 2011 to fix a fundamental problem: The sophisticated attacks that were forcing the world’s leading businesses into the headlines could not be solved with existing malware-based defences. Co-founders George Kurtz and Dmitri Alperovitch realized that a brand-new approach was needed — one that combines the most advanced endpoint protection with expert intelligence to pinpoint the adversaries perpetrating the attacks, not just the malware.&amp;rsquo;
-&lt;img
- class="lazyload"
- src="https://cov-comsec.github.io/svg/loading.min.svg"
- data-src="CrowdStrike_ad.png"
- data-srcset="https://cov-comsec.github.io/posts/crowdstrike_event/CrowdStrike_ad.png, CrowdStrike_ad.png 1.5x, https://cov-comsec.github.io/posts/crowdstrike_event/CrowdStrike_ad.png 2x"
- data-sizes="auto"
- alt="/posts/crowdstrike_event/CrowdStrike_ad.png"
- title="CrowdStrike Flyer" /&gt;&lt;/p&gt;</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>CrowdStrike - Tag - CUEH ComSec</title><link>https://cov-comsec.github.io/tags/crowdstrike/</link><description>CrowdStrike - Tag - CUEH ComSec</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 04 Dec 2020 12:40:28 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/crowdstrike/" rel="self" type="application/rss+xml"/><item><title>CrowdStrike Event</title><link>https://cov-comsec.github.io/posts/crowdstrike_event/</link><pubDate>Fri, 04 Dec 2020 12:40:28 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/crowdstrike_event/</guid><description>Our university has been hacked!!!! CrowdStrike and ComSec request your help in identifying the malicious attackers. Can you help us identify the attackers before Warwick, Southampton and Edinburgh Napier do?
+This week we will complete a blue team, security operation centre type challenge!
+Unfortunately, places are limited this week, and require booking in advance - to book, view our post on either Aula or Discord
+Who are CrowdStrike? &amp;lsquo;CrowdStrike was founded in 2011 to fix a fundamental problem: The sophisticated attacks that were forcing the world’s leading businesses into the headlines could not be solved with existing malware-based defences.</description></item></channel></rss>

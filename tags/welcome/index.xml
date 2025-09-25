@@ -1,72 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on CUEH ComSec</title><link>https://cov-comsec.github.io/tags/welcome/</link><description>Recent content in Welcome on CUEH ComSec</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 23 Jul 2022 12:43:36 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/welcome/index.xml" rel="self" type="application/rss+xml"/><item><title>Octalkber</title><link>https://cov-comsec.github.io/posts/octalkber/</link><pubDate>Tue, 05 Oct 2021 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/octalkber/</guid><description>&lt;p&gt;Throughout the month of October, for cybersecurity awareness month, each week we will be having a talk by someone in the cybersecurity field. To see our latest line-up and how to gain access to these talks; please refer to the posts in Aula and the ComSec Discord channel.&lt;/p&gt;
-&lt;p&gt;Thanks,&lt;/p&gt;
-&lt;p&gt;ComSec&lt;/p&gt;</description></item><item><title>Introduction, Recon &amp; OSINT Taster Session</title><link>https://cov-comsec.github.io/posts/2021_taster_session/</link><pubDate>Wed, 22 Sep 2021 20:14:41 +0100</pubDate><guid>https://cov-comsec.github.io/posts/2021_taster_session/</guid><description>&lt;p&gt;Welcome back to our first official session for the new academic year, it was great to finally meet you all in real life. This is a quick recap of what we did.&lt;/p&gt;
-&lt;h2 id="what-is-comsec"&gt;What is ComSec?&lt;/h2&gt;
-&lt;p&gt;Welcome to ComSec, we are Coventry University&amp;rsquo;s Ethical Hacking Society. We aim to share our knowledge around cybersecurity and to create a strong info-sec community. Our aims:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Teach cybersecurity&lt;/li&gt;
-&lt;li&gt;Organise talks with businesses&lt;/li&gt;
-&lt;li&gt;Organise university wide competitions&lt;/li&gt;
-&lt;li&gt;Compete internationally with our team ‘Ethical Slackers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="committee-2021"&gt;Committee 2021&lt;/h2&gt;
-&lt;p&gt;This year the committee is:&lt;/p&gt;</description></item><item><title>We're Back!</title><link>https://cov-comsec.github.io/posts/welcome_2021/</link><pubDate>Fri, 10 Sep 2021 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/welcome_2021/</guid><description>&lt;p&gt;Welcome to a new year at ComSec — Coventry University&amp;rsquo;s unofficial ethical hacking society. We are proud to announce due to the relaxation of COVID-19 rules, we will be holding in-person events every week on Wednesday at 2pm. Also, if the interest is there; we will offer a live-streamed version available on our Discord channel (please let the committee know prior to the session). We would also, like to take this opportunity to formally welcome our latest committee member, Ben!&lt;/p&gt;</description></item><item><title>How to Contribute</title><link>https://cov-comsec.github.io/posts/contributing/</link><pubDate>Fri, 28 May 2021 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/contributing/</guid><description>&lt;p&gt;If you are a member of ComSec, we would love you to contribute to our site; and as a reward we will display your name as the article&amp;rsquo;s author.&lt;/p&gt;
-&lt;p&gt;The type of articles we would like is anything hacking related; this could be from discussing a topic to a walkthrough to a CTF challenge.&lt;/p&gt;
-&lt;h2 id="getting-started"&gt;Getting Started&lt;/h2&gt;
-&lt;p&gt;Firstly you will need to fork this repository. This can be done through GitHub by visiting our &lt;a href="https://github.com/Cov-ComSec/Cov-ComSec.github.io" target="_blank" rel="noopener noreffer"&gt;repository&lt;/a&gt; and by clicking fork in the top right corner. &lt;strong&gt;NB:&lt;/strong&gt; you must be logged into GitHub to do this!&lt;/p&gt;</description></item><item><title>ComSec Introduction Writeup</title><link>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</link><pubDate>Wed, 21 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</guid><description>&lt;h2 id="nmap-1"&gt;Nmap 1&lt;/h2&gt;
-&lt;p&gt;Welcome to ComSec&amp;rsquo;s first challenge! This week we will be targeting a docker container, to start it, issue the following two commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
-&lt;/span&gt;&lt;span class="lnt"&gt; 2
-&lt;/span&gt;&lt;span class="lnt"&gt; 3
-&lt;/span&gt;&lt;span class="lnt"&gt; 4
-&lt;/span&gt;&lt;span class="lnt"&gt; 5
-&lt;/span&gt;&lt;span class="lnt"&gt; 6
-&lt;/span&gt;&lt;span class="lnt"&gt; 7
-&lt;/span&gt;&lt;span class="lnt"&gt; 8
-&lt;/span&gt;&lt;span class="lnt"&gt; 9
-&lt;/span&gt;&lt;span class="lnt"&gt;10
-&lt;/span&gt;&lt;span class="lnt"&gt;11
-&lt;/span&gt;&lt;span class="lnt"&gt;12
-&lt;/span&gt;&lt;span class="lnt"&gt;13
-&lt;/span&gt;&lt;span class="lnt"&gt;14
-&lt;/span&gt;&lt;span class="lnt"&gt;15
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ wget https://cov-comsec.github.io/posts/welcome_nmap/c1/docker-compose.yaml
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;$ sudo docker-compose up
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="o"&gt;[&lt;/span&gt;sudo&lt;span class="o"&gt;]&lt;/span&gt; password &lt;span class="k"&gt;for&lt;/span&gt; kali: 
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;WARNING: Found orphan containers &lt;span class="o"&gt;(&lt;/span&gt;kali_evilweb_1&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; this project. If you removed or renamed this service in your compose file, you can run this &lt;span class="nb"&gt;command&lt;/span&gt; with the --remove-orphans flag to clean it up.
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Recreating kali_ftp_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Recreating kali_smtp_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Starting kali_ssh_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Creating kali_web_1 ... &lt;span class="k"&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Attaching to kali_web_1, kali_ssh_1, kali_smtp_1, kali_ftp_1
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ftp_1 &lt;span class="p"&gt;|&lt;/span&gt; Starting Pure-FTPd:
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ftp_1 &lt;span class="p"&gt;|&lt;/span&gt; pure-ftpd -c &lt;span class="m"&gt;30&lt;/span&gt; -C &lt;span class="m"&gt;10&lt;/span&gt; -l puredb:/etc/pure-ftpd/pureftpd.pdb -j -R -P localhost -p 30000:30059 
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; AH00558: apache2: Could not reliably determine the server&lt;span class="s1"&gt;&amp;#39;s fully qualified domain name, using 192.168.42.4. Set the &amp;#39;&lt;/span&gt;ServerName&lt;span class="s1"&gt;&amp;#39; directive globally to suppress this message
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s1"&gt;web_1 | AH00558: apache2: Could not reliably determine the server&amp;#39;&lt;/span&gt;s fully qualified domain name, using 192.168.42.4. Set the &lt;span class="s1"&gt;&amp;#39;ServerName&amp;#39;&lt;/span&gt; directive globally to suppress this message
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;Fri Oct &lt;span class="m"&gt;22&lt;/span&gt; 23:08:37.325178 2021&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;mpm_prefork:notice&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;pid 1&lt;span class="o"&gt;]&lt;/span&gt; AH00163: Apache/2.4.25 &lt;span class="o"&gt;(&lt;/span&gt;Debian&lt;span class="o"&gt;)&lt;/span&gt; PHP/7.3.4 configured -- resuming normal operations
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;web_1 &lt;span class="p"&gt;|&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;Fri Oct &lt;span class="m"&gt;22&lt;/span&gt; 23:08:37.326184 2021&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;core:notice&lt;span class="o"&gt;]&lt;/span&gt; &lt;span class="o"&gt;[&lt;/span&gt;pid 1&lt;span class="o"&gt;]&lt;/span&gt; AH00094: Command line: &lt;span class="s1"&gt;&amp;#39;apache2 -D FOREGROUND&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;strong&gt;NB:&lt;/strong&gt; Despite the output, the target machine will be launched at 192.168.42.1!&lt;/p&gt;</description></item><item><title>ComSec Introduction</title><link>https://cov-comsec.github.io/posts/welcome_nmap/</link><pubDate>Thu, 15 Oct 2020 12:40:28 +0100</pubDate><guid>https://cov-comsec.github.io/posts/welcome_nmap/</guid><description>&lt;p&gt;This week is the first session of the academic year, and we will cover:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;What is ComSec?&lt;/li&gt;
-&lt;li&gt;Network Scanning with Nmap&lt;/li&gt;
-&lt;li&gt;Introduction to TryHackMe&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="resources"&gt;Resources&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/welcome_nmap/nmap.pdf" rel=""&gt;Presentation Slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.twitch.tv/videos/772154140" target="_blank" rel="noopener noreffer"&gt;Live Session Recording&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Docker-Compose Challenges
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/welcome_nmap/c1/docker-compose.yaml" rel=""&gt;Challenge 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://cov-comsec.github.io/posts/welcome_nmap/c2/docker-compose.yaml" rel=""&gt;Challenge 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-is-comsec"&gt;What is ComSec?&lt;/h2&gt;
-&lt;p&gt;Firstly, welcome to ComSec, we are the university&amp;rsquo;s unofficial ethical hacking society. This year the club will be led by second year students Jack Orcherton, Martin Schon and Tiago Pascoal.&lt;/p&gt;</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Welcome - Tag - CUEH ComSec</title><link>https://cov-comsec.github.io/tags/welcome/</link><description>Welcome - Tag - CUEH ComSec</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Oct 2021 12:40:28 +0100</lastBuildDate><atom:link href="https://cov-comsec.github.io/tags/welcome/" rel="self" type="application/rss+xml"/><item><title>Octalkber</title><link>https://cov-comsec.github.io/posts/octalkber/</link><pubDate>Tue, 05 Oct 2021 12:40:28 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/octalkber/</guid><description>Throughout the month of October, for cybersecurity awareness month, each week we will be having a talk by someone in the cybersecurity field. To see our latest line-up and how to gain access to these talks; please refer to the posts in Aula and the ComSec Discord channel.
+Thanks,
+ComSec</description></item><item><title>Introduction, Recon &amp; OSINT Taster Session</title><link>https://cov-comsec.github.io/posts/2021_taster_session/</link><pubDate>Wed, 22 Sep 2021 20:14:41 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/2021_taster_session/</guid><description>Welcome back to our first official session for the new academic year, it was great to finally meet you all in real life. This is a quick recap of what we did.
+What is ComSec? Welcome to ComSec, we are Coventry University&amp;rsquo;s Ethical Hacking Society. We aim to share our knowledge around cybersecurity and to create a strong info-sec community. Our aims:
+Teach cybersecurity Organise talks with businesses Organise university wide competitions Compete internationally with our team ‘Ethical Slackers Committee 2021 This year the committee is:</description></item><item><title>We're Back!</title><link>https://cov-comsec.github.io/posts/welcome_2021/</link><pubDate>Fri, 10 Sep 2021 12:40:28 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/welcome_2021/</guid><description>Welcome to a new year at ComSec — Coventry University&amp;rsquo;s unofficial ethical hacking society. We are proud to announce due to the relaxation of COVID-19 rules, we will be holding in-person events every week on Wednesday at 2pm. Also, if the interest is there; we will offer a live-streamed version available on our Discord channel (please let the committee know prior to the session). We would also, like to take this opportunity to formally welcome our latest committee member, Ben!</description></item><item><title>How to Contribute</title><link>https://cov-comsec.github.io/posts/contributing/</link><pubDate>Fri, 28 May 2021 12:40:28 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/contributing/</guid><description>If you are a member of ComSec, we would love you to contribute to our site; and as a reward we will display your name as the article&amp;rsquo;s author.
+The type of articles we would like is anything hacking related; this could be from discussing a topic to a walkthrough to a CTF challenge.
+Getting Started Firstly you will need to fork this repository. This can be done through GitHub by visiting our repository and by clicking fork in the top right corner.</description></item><item><title>ComSec Introduction Writeup</title><link>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</link><pubDate>Wed, 21 Oct 2020 12:40:28 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/welcome_nmap_writeup/</guid><description>Nmap 1 Welcome to ComSec&amp;rsquo;s first challenge! This week we will be targeting a docker container, to start it, issue the following two commands:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 $ wget https://cov-comsec.github.io/posts/welcome_nmap/c1/docker-compose.yaml $ sudo docker-compose up [sudo] password for kali: WARNING: Found orphan containers (kali_evilweb_1) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up.</description></item><item><title>ComSec Introduction</title><link>https://cov-comsec.github.io/posts/welcome_nmap/</link><pubDate>Thu, 15 Oct 2020 12:40:28 +0100</pubDate><author>Author</author><guid>https://cov-comsec.github.io/posts/welcome_nmap/</guid><description>This week is the first session of the academic year, and we will cover:
+What is ComSec? Network Scanning with Nmap Introduction to TryHackMe Resources Presentation Slides Live Session Recording Docker-Compose Challenges Challenge 1 Challenge 2 What is ComSec? Firstly, welcome to ComSec, we are the university&amp;rsquo;s unofficial ethical hacking society. This year the club will be led by second year students Jack Orcherton, Martin Schon and Tiago Pascoal.
+As a society, our main aims are to:</description></item></channel></rss>
